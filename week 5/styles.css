@@ -1,0 +1,12 @@
+ p{
+            color:red;
+        }
+h1{
+    color:blue;
+}
+        .gach-ngang{
+            text-decoration-line: line-through;
+        }
+p#special {
+    background-color: yellow;
+}

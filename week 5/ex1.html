@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My CV</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background: #ccc; 
+            font-family: Arial, sans-serif;
+        }
+        nav#topmenu ul {
+            list-style: none;
+            background-color: #444;
+            text-align: center;
+            padding: 0;
+            margin: 0;
+        }
+        nav#topmenu li {
+            font-size: 18px;
+            line-height: 40px;
+            height: 40px;
+            display: inline-block;
+            padding: 20px;
+        }
+        nav#topmenu a {
+            text-decoration: none;
+            color: #fff;
+        }
+        nav#topmenu a:hover {
+            color: yellow;
+        }
+
+        /* Thêm CSS cho phần nội dung CV */
+        .container {
+            width: 80%;
+            margin: 40px auto;
+            background: #fff;
+            padding: 20px;
+            border-radius: 8px;
+        }
+        h1 {
+            text-align: center;
+        }
+        p {
+            line-height: 1.6;
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav id="topmenu">
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Nội dung CV -->
+    <div class="container" id="home">
+        <h1>Bùi Thị Ngọc Linh - My CV</h1>
+        <p><strong>Email:</strong> buingoclinhkq@gmail.com</p>
+        <p><strong>Phone:</strong> 093358xxxx</p>
+    </div>
+
+    <div class="container" id="about">
+        <h2>About Me</h2>
+        <p>Có kinh nghiệm làm việc trong lĩnh vực abc gần x năm, thành thạo những kĩ năng ...</p>
+    </div>
+
+    <div class="container" id="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li>HTML, CSS, JavaScript</li>
+            <li>Python, Java</li>
+            <li>SQL, MySQL</li>
+        </ul>
+    </div>
+
+    <div class="container" id="projects">
+        <h2>Projects</h2>
+        <p>Website quản lý sinh viên, game nhỏ bằng JavaScript.</p>
+    </div>
+
+    <div class="container" id="contact">
+        <h2>Contact</h2>
+        <p>Email: buingoclinhkq@gmail.com</p>
+    </div>
+</body>
+</html>
