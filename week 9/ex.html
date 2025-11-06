@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV Information Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h2>CV Information Form</h2>
+
+    <form action="#" method="post">
+
+        <!-- Thông tin cá nhân -->
+        <label for="fullname">Full Name:</label>
+        <input type="text" id="fullname" name="fullname" required><br>
+
+        <label for="dob">Date of Birth:</label>
+        <input type="date" id="dob" name="dob"><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required><br>
+
+        <label for="phone">Phone:</label>
+        <input type="tel" id="phone" name="phone"><br>
+
+        <label for="address">Address:</label>
+        <input type="text" id="address" name="address"><br>
+
+        <label for="gender">Gender:</label>
+        <select id="gender" name="gender">
+            <option value="">Select</option>
+            <option>Male</option>
+            <option>Female</option>
+            <option>Other</option>
+        </select><br><br>
+
+        <!-- Học vấn -->
+        <label for="education">Education:</label><br>
+        <textarea id="education" name="education" rows="3" cols="40" placeholder="Enter your education background..."></textarea><br><br>
+
+        <!-- Kinh nghiệm -->
+        <label for="experience">Work Experience:</label><br>
+        <textarea id="experience" name="experience" rows="3" cols="40" placeholder="Describe your past jobs..."></textarea><br><br>
+
+        <!-- Kỹ năng -->
+        <label>Skills:</label><br>
+        <input type="checkbox" id="skill1" name="skills" value="Communication">
+        <label for="skill1">Communication</label><br>
+
+        <input type="checkbox" id="skill2" name="skills" value="Teamwork">
+        <label for="skill2">Teamwork</label><br>
+
+        <input type="checkbox" id="skill3" name="skills" value="Leadership">
+        <label for="skill3">Leadership</label><br>
+
+        <input type="checkbox" id="skill4" name="skills" value="Problem Solving">
+        <label for="skill4">Problem Solving</label><br>
+
+        <input type="checkbox" id="skill5" name="skills" value="Time Management">
+        <label for="skill5">Time Management</label><br><br>
+
+        <!-- Ngôn ngữ -->
+        <label for="languages">Languages:</label><br>
+        <input type="text" id="languages" name="languages" placeholder="e.g., English, Japanese, Vietnamese"><br><br>
+
+        <!-- Sở thích -->
+        <label for="hobbies">Hobbies:</label><br>
+        <textarea id="hobbies" name="hobbies" rows="2" cols="40"></textarea><br><br>
+
+        <!-- Tải ảnh -->
+        <label for="photo">Upload Photo:</label>
+        <input type="file" id="photo" name="photo" accept="image/*"><br><br>
+
+        <input type="submit" value="Submit">
+    </form>
+
+</body>
+</html>

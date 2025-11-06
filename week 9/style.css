@@ -1,0 +1,35 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: white;
+    padding: 40px;
+}
+
+h2 {
+    margin-bottom: 15px;
+}
+
+form {
+    border: 1px solid #ccc;
+    background-color: #f9f9f9;
+    padding: 20px;
+    width: 400px;
+}
+
+label {
+    display: inline-block;
+    width: 120px;
+    margin-bottom: 5px;
+    vertical-align: top;
+}
+
+input, select, textarea {
+    margin-bottom: 8px;
+}
+
+textarea {
+    resize: none;
+}
+
+input[type="submit"] {
+    margin-top: 10px;
+}
