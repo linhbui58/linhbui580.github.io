@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form name="calcform">
+        <table>
+            <tr>
+                <th colspan="2"> Calculator</th>
+            </tr>
+            <tr>
+                <td align="right">Number A:</td>
+                <td><input type="text" name="txta" placeholder="Enter number A"></td>
+            </tr>
+            <tr>
+                <td align="right">Number B:</td>
+                <td><input type="text" name="txtb" placeholder="Enter number B"></td>
+            </tr>
+            <tr>
+                <td align="right">Operator:</td>
+                <td>
+                    <select name="sto">
+                        <option value="+">+</option>
+                        <option value="-">−</option>
+                        <option value="*">×</option>
+                        <option value="/">÷</option>
+                        <option value="%">%</option>
+                        <option value="**">^ </option>
+                        <option value="sqrt">√ </option>
+                        <option value="abs">|A| </option>
+                        <option value="log">log(A)</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td align="right">Result:</td>
+                <td><input name="txtr" readonly></td>
+            </tr>
+            <tr>
+                <td colspan="2" align="center">
+                    <input type="button" value="Calculate" onclick="calculate()">
+                    <input type="reset" value="Reset">
+                </td>
+            </tr>
+        </table>
+        <p id="error-msg"></p>
+    </form>
+
+    <script src="script.js"></script>
+</body>
+</html>
